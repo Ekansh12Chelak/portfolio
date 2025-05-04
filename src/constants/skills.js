@@ -1,0 +1,16 @@
+export const skillsData = [
+  { name: "React.js", level: 95 },
+  { name: "JavaScript", level: 95 },
+  { name: "Redux", level: 90 },
+  { name: "HTML/CSS", level: 95 },
+  { name: "Bootstrap", level: 90 },
+  { name: "Material UI", level: 90 },
+  { name: "Tailwind CSS", level: 85 },
+  { name: "TypeScript", level: 70 },
+  { name: "SQL", level: 75 },
+  { name: "Git", level: 90 },
+  { name: "Jest", level: 80 },
+  { name: "React Testing Library", level: 80 },
+  { name: "Azure DevOps", level: 85 },
+  { name: "Microsoft Azure", level: 80 },
+];
