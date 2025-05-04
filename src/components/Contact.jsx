@@ -1,13 +1,13 @@
 import React from "react";
-import { FaEnvelope, FaLinkedin } from "react-icons/fa";
+import { FaEnvelope, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 
 const Contact = () => {
   return (
     <section id="contact" className="contact-section">
       <h2 className="slideIn">Contact Me</h2>
       <p className="slideIn" style={{ animationDelay: "0.2s" }}>
-        Excited to collaborate on innovative projects! Reach out via email or
-        LinkedIn.
+        Excited to collaborate on innovative projects! Reach out via email,
+        LinkedIn, or WhatsApp.
       </p>
       <div className="contact-links">
         <a
@@ -24,6 +24,15 @@ const Contact = () => {
           style={{ animationDelay: "0.2s" }}
         >
           <FaLinkedin className="inline mr-2" /> LinkedIn
+        </a>
+        <a
+          href="https://wa.me/919340142331"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="contact-button slideUp"
+          style={{ animationDelay: "0.4s" }}
+        >
+          <FaWhatsapp className="inline mr-2" /> WhatsApp
         </a>
       </div>
     </section>

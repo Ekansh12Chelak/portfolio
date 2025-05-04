@@ -1,5 +1,5 @@
 import React from "react";
-import { FaEnvelope, FaLinkedin } from "react-icons/fa";
+import { FaEnvelope, FaLinkedin, FaGithub, FaWhatsapp } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -17,6 +17,22 @@ const Footer = () => {
             className="footer-link"
           >
             <FaLinkedin />
+          </a>
+          <a
+            href="https://wa.me/919340142331"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="footer-link"
+          >
+            <FaWhatsapp />
+          </a>
+          <a
+            href="https://github.com/Ekansh12Chelak"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="footer-link"
+          >
+            <FaGithub />
           </a>
         </div>
       </div>
