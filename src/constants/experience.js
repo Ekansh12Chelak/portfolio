@@ -1,6 +1,6 @@
 export const experienceData = [
   {
-    role: "Software Engineer Analyst",
+    role: "Software Engineer",
     company: "Accenture Solutions Pvt. Ltd.",
     date: "Sep 2023 - Present",
     responsibilities: [
