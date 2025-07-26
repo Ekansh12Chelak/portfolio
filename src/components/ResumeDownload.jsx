@@ -9,7 +9,7 @@ const ResumeDownload = () => {
         Download my resume to explore my skills, experience, and achievements.
       </p>
       <a
-        href="https://drive.google.com/uc?export=download&id=1hi-23fzOuMfEGFZJZIeLh54_BSQIoGoX"
+        href="https://drive.google.com/uc?export=download&id=1PlaPkjG1ZuCSsq-KkR34uj4qzRESNXV5"
         className="resume-button slideUp"
       >
         <FaDownload className="inline mr-2" /> Download Resume
